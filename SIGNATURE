@@ -1,0 +1,40 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 6b87d23b6472e23330f31e02a57b65af1ef2d5da MANIFEST
+SHA1 030b7807553f0fcd45bee22e2fdda064b57927e3 MANIFEST.SKIP
+SHA1 24d5c9bd3c56b46ed1b5f03b46f87b3ed85bd79d META.yml
+SHA1 73af38d9abba97c19bdc89e9dee10c8edb7e050b Makefile.PL
+SHA1 a9283489bd29f8605143c4cee247a67e7beafa46 etc/ChangeLogML.xsd
+SHA1 ffc71cf6449920be193b668d9dc667a421fdc073 lib/Net/ISBNDB/API.pm
+SHA1 af5638997e53ad2e4bdc8021ff232fb1f962ced6 lib/Net/ISBNDB/API/Authors.pm
+SHA1 a91cb55337ca3eb21f55540aeae30eb4d4fec3e9 lib/Net/ISBNDB/API/Books.pm
+SHA1 7a03b836f591ff08bb33818b5bef88d6fd5f962c lib/Net/ISBNDB/API/Categories.pm
+SHA1 ad6918d16f6a0de9d5385e1c66a9481a189be6f9 lib/Net/ISBNDB/API/Publishers.pm
+SHA1 d5739320bc8ff54739224e0c3f15af93bcb4c0ee lib/Net/ISBNDB/API/Subjects.pm
+SHA1 6858d4bb5017bcee96c38df4aec21e3ba8a89fd3 lib/Net/ISBNDB/Agent.pm
+SHA1 25d4a7d056d18a135e762db1c36e41296b2992c5 lib/Net/ISBNDB/Agent/REST.pm
+SHA1 d8f7e61e9909530df8a9890fdbc257e42958094a t/00_load.t
+SHA1 4aeb184c9bed26ab6c3be1ebdb8470c0cb353b1f t/00_signature.t
+SHA1 61aaa7b194f40ab67ea169bf93c7fb24d8824c49 t/01_pod.t
+SHA1 fbffbb7a0428e951de7c62b05a1014aed5257093 t/02_pod_coverage.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2.2 (GNU/Linux)
+
+iD8DBQFFB7lR3Cp33jjp81URAlaTAJ0eXXKbMjy0YjcYsrIwjZxE+bjDMQCeItzO
+nTu1fPjdWS9VfgVLcD56aEE=
+=p2X0
+-----END PGP SIGNATURE-----
