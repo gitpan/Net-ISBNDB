@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# $Id: Makefile.PL 5 2006-09-13 07:44:49Z  $
+# $Id: Makefile.PL 9 2006-09-13 08:18:02Z  $
 #
 # This is the MakeMaker skeleton for Net::ISBNDB.
 #
@@ -12,7 +12,7 @@ $CLEAN = 'pod2html-* *.html *.log t/*.log META.yml SIGNATURE *.ppd ';
 WriteMakefile(
               (MM->can('signature_target') ? (SIGN => 1) : ()),
               NAME      => 'Net::ISBNDB',
-              VERSION   => '0.10',
+              VERSION   => '0.11',
               AUTHOR    => 'Randy J. Ray',
               ABSTRACT  =>
               'Data and communication classes for talking to isbndb.com',
